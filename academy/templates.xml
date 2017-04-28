@@ -20,8 +20,9 @@
                 <div class="oe_structure"/>
                 <div class="oe_structure">
                     <div class="container">
-                        <h3 t-field="person.name"/>aaaa
-                        <p>Last modified: <i t-field="person.write_date"/></p>
+                        <h3 t-field="person.name"/>
+                        <p>Last modified: <i t-field="person.write_date" 
+                                           t-field-options='{"format": "long"}'/></p>
                         <div t-field="person.biography"/>
                     </div>
                </div>
